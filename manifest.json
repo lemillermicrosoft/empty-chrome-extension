@@ -10,8 +10,8 @@
   "options_page": "./options.html",
   "browser_action": {
     "default_icon": {
-      "20": "assets/lobe-extension20.png",
-      "40": "assets/lobe-extension40.png"
+      "20": "assets/default-extension20.png",
+      "40": "assets/default-extension40.png"
     },
     "default_popup": "popup.html"
   },

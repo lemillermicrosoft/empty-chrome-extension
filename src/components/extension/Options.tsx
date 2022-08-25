@@ -8,12 +8,6 @@ import {
 import Content from "./Content";
 import Popup from "./Popup";
 
-function get_projects(success: (data: any) => void) {
-  chrome.runtime.sendMessage({ type: "GET_PROJECTS" }, function (response) {
-    success(response && response.data);
-  });
-}
-
 function Options() {
   return (
     <Router>
